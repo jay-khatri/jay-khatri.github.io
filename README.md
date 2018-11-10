@@ -10,5 +10,6 @@ This installs packages in `package.json`.
 ### `yarn start`
 This'll build the js bundle and serve it on a local port.
 
-### `yarn deploy`
-This'll build the js bundle and creat new hashes for all static files.
+### `yarn build && git add/commit/push`
+This'll build the js bundle and creat new hashes for all static files. Then just upload to github :).
+
