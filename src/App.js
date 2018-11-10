@@ -10,11 +10,12 @@ class App extends Component {
           <p>
             My name is 
             &nbsp;
-            <a style={linkStyle} href="https://google.com">Jay Khatri</a>
+            <a style={linkStyle} target="_blank" href="https://linkedin.com/in/jay-khatri">Jay Khatri</a>
             &nbsp; 
             and I'm an <strong>engineer</strong>
             .
           </p>
+          <h4>ABOUT ME</h4>
           <p>
             I'm a student learning Electrical and Computer Engineering at 
             &nbsp;
@@ -31,6 +32,15 @@ class App extends Component {
             <a style={linkStyle} href="https://www.theledger.com/article/LK/20140313/News/608076751/LL/">2015 FTC World Championship Robotics team</a>
             , and at the time, I had a strong focus in <strong>mechanical design and electronics.</strong>
             &nbsp;
+            Since then, I've taken an interest in software engineering, having done a few interships rangin from 
+            &nbsp;
+            <strong>full stack development</strong> to <strong> web infrastructure </strong>.
+            In my coursework, I especially enjoy classes related hw/sw co-design, algorithms and operating systems.
+          </p>
+          <h4>EXPERIENCE</h4>
+          <p>
+            Based on past experience, I've really enjoyed working on small teams and having the ability to contribute product 
+            decisions as an engineer. I'll upload my internship shortly.
           </p>
         </div>
       </div>
