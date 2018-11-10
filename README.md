@@ -8,4 +8,7 @@ If you have any interest in running this locally (for some weird reason), here's
 This installs packages in `package.json`.
 
 ### `yarn start`
-This'll build the js bundle on a local port.
+This'll build the js bundle and serve it on a local port.
+
+### `yarn deploy`
+This'll build the js bundle and creat new hashes for all static files.
