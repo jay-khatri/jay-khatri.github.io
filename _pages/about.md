@@ -1,9 +1,8 @@
 ---
 permalink: /
-title: ""
+title: "About Me"
 ---
 
-## About Me
 Hi, I'm Jay. Thanks for visiting my site 😀. I'm a student studying Electrical and Computer Engineering at Texas A&M University. 
 ### Interests
  I have interests in hardware and software co-design, software architecture and robotics. I like to say that I have a pretty unique background, which is well reflected in my projects.
