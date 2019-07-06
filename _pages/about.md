@@ -10,6 +10,6 @@ Hi, I'm Jay. Thanks for visiting my site 😀. I'm a student studying Electrical
 ### Past
 In high school, I was a captain of the 2015 FTC World Championship Robotics team, and at the time, I had a strong focus in mechanical design and electronics. Since then, I've taken an interest in software engineering, having done a few interships ranging from full stack development to web infrastructure. In my coursework, I especially enjoy classes related hw/sw co-design, algorithms and operating systems.
 
-### Recent
+### Recent Experience
 Based on past experience, I've really enjoyed working on small teams and having the ability to contribute product 
 decisions as an engineer. I'll upload my internship shortly.
