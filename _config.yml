@@ -21,8 +21,10 @@ description: >- # this means to ignore newlines until "baseurl:"
   Google search results) and in your feed.xml site description.
 twitter_username: Jay_NotTheBird
 github_username: jay-khatri
-minimal_mistakes_skin: neon
+minimal_mistakes_skin: mint
 search: false
+
+repository: jay-khatri/jay-khatri.github.io
 
 # Build settings
 markdown: kramdown
