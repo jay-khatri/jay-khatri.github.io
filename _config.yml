@@ -16,7 +16,7 @@
 title: JK
 email: me@jaykhatri.com
 description: >- # this means to ignore newlines until "baseurl:"
-  This is Jay Khatri's personal website!
+  Jay Khatri's personal website.
 twitter_username: Jay_NotTheBird
 github_username: jay-khatri
 minimal_mistakes_skin: aqua
@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "Jay Khatri"
   avatar : "/assets/images/bio-photo.png"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Yes, like the letter."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
