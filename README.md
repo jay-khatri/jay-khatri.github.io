@@ -1,15 +1,27 @@
-This is Jay's personal website. Good morning.
+# Minimal Mistakes remote theme starter
 
-## Available Scripts
+Fork this repo for the quickest method of getting started with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
 
-If you have any interest in running this locally (for some weird reason), here's how:
+Contains basic configuration to get you a site with:
 
-### `yarn`
-This installs packages in `package.json`.
+- Sample posts.
+- Sample top navigation.
+- Sample author sidebar with social links.
+- Sample footer links.
+- Paginated home page.
+- Archive pages for posts grouped by year, category, and tag.
+- Sample about page.
+- Sample 404 page.
+- Site wide search.
 
-### `yarn start`
-This'll build the js bundle and serve it on a local port.
+Replace sample content with your own and [configure as necessary](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).
 
-### `yarn build && git add/commit/push`
-This'll build the js bundle and creat new hashes for all static files. Then just upload to github :).
+---
 
+## Troubleshooting
+
+If you have a question about using Jekyll, start a discussion on the [Jekyll Forum](https://talk.jekyllrb.com/) or [StackOverflow](https://stackoverflow.com/questions/tagged/jekyll). Other resources:
+
+- [Ruby 101](https://jekyllrb.com/docs/ruby-101/)
+- [Setting up a Jekyll site with GitHub Pages](https://jekyllrb.com/docs/github-pages/)
+- [Configuring GitHub Metadata](https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration) to work properly when developing locally and avoid `No GitHub API authentication could be found. Some fields may be missing or have incorrect data.` warnings.
