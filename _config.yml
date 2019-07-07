@@ -14,6 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: JK
+name: Jay Khatri
 email: me@jaykhatri.com
 description: >- # this means to ignore newlines until "baseurl:"
   Jay Khatri's personal website.
@@ -62,18 +63,18 @@ author:
   avatar : "/assets/images/bio-photo.png"
   bio    : "Yes, like the letter."
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://jaykhatri.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/Jay_NotTheBird"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/jay-khatri"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/thejaykhatri"
+    - label: "Resume"
+      icon: "fas fa-fw fa-folder"
+      url: "https://docs.google.com/document/d/1auC-QsBX7Dm-Xrk02X43XvjapgcOH0rUAUeJDlRNHb8/edit?usp=sharing"
+    - label: "Email"
+      icon: "fas fa-fw fa-at"
+      url: "mailto: me@jaykhatri.com"
 
 footer:
   links:
@@ -83,9 +84,12 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/jay-khatri"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/thejaykhatri"
+    - label: "Resume"
+      icon: "fas fa-fw fa-folder"
+      url: "https://docs.google.com/document/d/1auC-QsBX7Dm-Xrk02X43XvjapgcOH0rUAUeJDlRNHb8/edit?usp=sharing"
+    - label: "Email"
+      icon: "fas fa-fw fa-at"
+      url: "mailto: me@jaykhatri.com"
 
 defaults:
   # _posts
