@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About Me"
+title: "Jay Khatri"
 ---
 
 Hi, I'm Jay. Thanks for visiting my site 😀. I'm a student studying Electrical and Computer Engineering at [Texas A&M University](https://tamu.edu). 
