@@ -1,7 +1,7 @@
 body {
   font-family: Consolas, monaco, monospace;
   max-width: 800px;
-  margin: 30px;
+  margin: 3em;
   color: #333333;
-  font-size: 14px;
+  font-size: 1em;
 }
