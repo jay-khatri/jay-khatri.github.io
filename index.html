@@ -1,11 +1,24 @@
 <html>
   <header><title>Jay K.</title></header>
   <link rel="stylesheet" type="text/css" href="index.css" />
-  <script src="http://localhost:8080/index.js"></script>
-  <script src="https://js-client.onrender.com/index.js"></script>
+    <script>
+        var script = document.createElement('script');
+        script.setAttribute('src', 'http://localhost:8080/index.js?' + new Date().getMilliseconds());
+        script.setAttribute('type', 'text/javascript');
+        document.getElementsByTagName('head')[0].appendChild(script);
+        window.highlightScript = script;
+        window.HighlightInit = function (org_id) {
+            highlightScript.addEventListener('load', () => {
+            var highlight = new Highlight(org_id);
+            highlight.initialize();
+          })
+        }
+    </script>
+    <script>
+      HighlightInit(1);
+    </script>
   <body>
-    Hi, I'm Jay 👋. I'm an engineer and product designer. I'm the former ceo and
-    co-founder of <a href="https://getreploy.com">Reploy</a> (YC S20).
+    Hi, I'm Jay 👋. I'm an engineer and product designer.
 
     <br />
     <br />
