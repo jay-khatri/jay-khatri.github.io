@@ -5,8 +5,20 @@ body {
   color: #333333;
   font-size: 1em;
   background-image: url("static/windows-xp.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .window-body {
   padding: 10px;
+}
+
+.window {
+  position: absolute;
+  z-index: 10;
+  width: 400px;
+}
+
+.title-bar {
+  cursor: move;
 }
