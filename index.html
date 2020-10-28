@@ -16,10 +16,17 @@
 			H.identify("hello@hello.com", { chicken: "hi" });
 		}
 	</script>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			var script = document.createElement("script");
+			script.src = "./index.js";
+			document.getElementsByTagName("body")[0].appendChild(script);
+		});
+	</script>
 	<body>
-		<div class="window">
-			<div class="title-bar">
-				<div class="title-bar-text">Jay's Website</div>
+		<div class="window" id="about">
+			<div class="title-bar" id="about-bar">
+				<div class="title-bar-text">About</div>
 				<div class="title-bar-controls">
 					<button aria-label="Minimize"></button>
 					<button aria-label="Maximize"></button>
@@ -28,23 +35,34 @@
 			</div>
 			<div class="window-body">
 				Hi, I'm Jay. I'm an engineer and product designer.
-
-				<br />
-				<br />
-
-				> Interests
-				<br />
-				<br />
+			</div>
+		</div>
+		<div class="window" id="interests">
+			<div class="title-bar" id="interests-bar">
+				<div class="title-bar-text">Interests</div>
+				<div class="title-bar-controls">
+					<button aria-label="Minimize"></button>
+					<button aria-label="Maximize"></button>
+					<button aria-label="Close"></button>
+				</div>
+			</div>
+			<div class="window-body">
 				In school, I had interests in hardware/software co-design, software
 				architecture and robotics. After taking a few jobs throughout college, I
 				developed a deep interest in web infrastructure and developing the
 				future of the internet.
-
-				<br />
-				<br />
-				> Past
-				<br />
-				<br />
+			</div>
+		</div>
+		<div class="window" id="past">
+			<div class="title-bar" id="past-bar">
+				<div class="title-bar-text">Past</div>
+				<div class="title-bar-controls">
+					<button aria-label="Minimize"></button>
+					<button aria-label="Maximize"></button>
+					<button aria-label="Close"></button>
+				</div>
+			</div>
+			<div class="window-body">
 				Most recently, I worked on
 				<a href="https://getreploy.com">Reploy</a> (<a
 					href="https://www.producthunt.com/posts/reploy"
@@ -69,12 +87,18 @@
 					href="https://www.theledger.com/article/LK/20140313/News/608076751/LL/"
 					>Robotics team</a
 				>, which started my wanderings in tech.
-
-				<br />
-				<br />
-				> Let's Chat
-				<br />
-				<br />
+			</div>
+		</div>
+		<div class="window" id="connect">
+			<div class="title-bar" id="connect-bar">
+				<div class="title-bar-text">Past</div>
+				<div class="title-bar-controls">
+					<button aria-label="Minimize"></button>
+					<button aria-label="Maximize"></button>
+					<button aria-label="Close"></button>
+				</div>
+			</div>
+			<div class="window-body">
 				Wanna get in touch? Follow/dm me on
 				<a
 					href="https://twitter.com/intent/follow?ref_src=twsrc%5Etfw&screen_name=Jay_NotTheBird&tw_p=followbutton"
