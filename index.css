@@ -4,4 +4,9 @@ body {
   margin: 3em;
   color: #333333;
   font-size: 1em;
+  background-image: url("static/windows-xp.jpg");
+}
+
+.window-body {
+  padding: 10px;
 }
