@@ -2,7 +2,7 @@
 const drag = (key, pos) => {
   const elmnt = document.getElementById(key)
   elmnt.style.top = `${pos}px`;
-  document.getElementById(key+"-bar").onmousedown = dragMouseDown;
+  document.getElementById(key + "-bar").onmousedown = dragMouseDown;
 
   function dragMouseDown(e) {
     e = e || window.event;
@@ -37,7 +37,7 @@ const drag = (key, pos) => {
 }
 
 drag("about", 10);
-drag("interests", 100);
-drag("past", 250);
-drag("connect", 450);
+drag("interests", 200);
+drag("past", 350);
+drag("connect", 550);
 

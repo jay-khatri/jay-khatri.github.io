@@ -1,110 +1,102 @@
 <html>
-	<header><title>Jay K.</title></header>
-	<link rel="stylesheet" type="text/css" href="index.css" />
-	<link rel="stylesheet" href="https://unpkg.com/xp.css" />
-		<script>
-		window["_h_debug"] = true;
-	!function(e,t){"object"==typeof exports&&"object"==typeof module?module.exports=t():"function"==typeof define&&define.amd?define([],t):"object"==typeof exports?exports.$=t():e.$=t()}(window,(function(){return function(e){var t={};function n(r){if(t[r])return t[r].exports;var i=t[r]={i:r,l:!1,exports:{}};return e[r].call(i.exports,i,i.exports,n),i.l=!0,i.exports}return n.m=e,n.c=t,n.d=function(e,t,r){n.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:r})},n.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},n.t=function(e,t){if(1&t&&(e=n(e)),8&t)return e;if(4&t&&"object"==typeof e&&e&&e.__esModule)return e;var r=Object.create(null);if(n.r(r),Object.defineProperty(r,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var i in e)n.d(r,i,function(t){return e[t]}.bind(null,i));return r},n.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return n.d(t,"a",t),t},n.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},n.p="",n(n.s=0)}([function(e,t,n){"use strict";var r;n.r(t),n.d(t,"H",(function(){return o}));var i=document.createElement("script"),o={init:function(e,t){void 0===t&&(t=!1),i.addEventListener("load",(function(){(r=new window.Highlight(t)).initialize(e)}))},identify:function(e,t){o.onHighlightReady((function(){return r.identify(e,t)}))},onHighlightReady:function(e){var t=setInterval((function(){r&&r.ready&&(clearInterval(t),e())}),200)}};window.H=o;i.setAttribute("src","https://static.highlight.run/index.js?"+(new Date).getMilliseconds()),i.setAttribute("type","text/javascript"),document.getElementsByTagName("head")[0].appendChild(i)}])}));
-	window.H.init(17)
-	</script>
-	<script>
-		var num = Math.round(Math.random());
-		if (num == 0) {
-			H.identify("hi@hi.com", { chicken: "hi" });
-		} else {
-			H.identify("hello@hello.com", { chicken: "hi" });
-		}
-	</script>
-	<script>
-		document.addEventListener("DOMContentLoaded", function () {
-			var script = document.createElement("script");
-			script.src = "./index.js";
-			document.getElementsByTagName("body")[0].appendChild(script);
-		});
-	</script>
-	<body>
-		<div class="window" id="about">
-			<div class="title-bar" id="about-bar">
-				<div class="title-bar-text">About</div>
-				<div class="title-bar-controls">
-					<button aria-label="Minimize"></button>
-					<button aria-label="Maximize"></button>
-					<button aria-label="Close"></button>
-				</div>
-			</div>
-			<div class="window-body">
-				Hi, I'm Jay. I'm an engineer and product designer.
-			</div>
-		</div>
-		<div class="window" id="interests">
-			<div class="title-bar" id="interests-bar">
-				<div class="title-bar-text">Interests</div>
-				<div class="title-bar-controls">
-					<button aria-label="Minimize"></button>
-					<button aria-label="Maximize"></button>
-					<button aria-label="Close"></button>
-				</div>
-			</div>
-			<div class="window-body">
-				In school, I had interests in hardware/software co-design, software
-				architecture and robotics. After taking a few jobs throughout college, I
-				developed a deep interest in web infrastructure and developing the
-				future of the internet.
-			</div>
-		</div>
-		<div class="window" id="past">
-			<div class="title-bar" id="past-bar">
-				<div class="title-bar-text">Past</div>
-				<div class="title-bar-controls">
-					<button aria-label="Minimize"></button>
-					<button aria-label="Maximize"></button>
-					<button aria-label="Close"></button>
-				</div>
-			</div>
-			<div class="window-body">
-				Most recently, I worked on
-				<a href="https://getreploy.com">Reploy</a> (<a
-					href="https://www.producthunt.com/posts/reploy"
-					>product hunt</a
-				>, <a href="https://news.ycombinator.com/item?id=23917956">hn</a>),
-				where I built/designed the product and drove sales from 0 -> $3k MRR in
-				3 weeks. At its core, Reploy used
-				<a href="https://kubernetes.io/">kubernetes</a> to schedule ephemeral
-				environments.
+<header>
+	<title>Jay K.</title>
+</header>
+<link rel="stylesheet" type="text/css" href="index.css" />
+<link rel="stylesheet" href="https://unpkg.com/xp.css" />
+<script>
+	document.addEventListener("DOMContentLoaded", function () {
+		var script = document.createElement("script");
+		script.src = "./index.js";
+		document.getElementsByTagName("body")[0].appendChild(script);
+	});
+</script>
 
-				<br />
-				<br />
-				Before that, I spent time working on product at
-				<a target="_blank" href="https://joinhandshake.com">Handshake</a>,
-				anti-abuse infrastructure at
-				<a target="_blank" href="https://cloud.google.com">Google</a>, and most
-				recently on machine learning infra at
-				<a target="_blank" href="deepmind.com">Deepmind</a>. In high school, I
-				was a captain of the 2015 FTC World Championship
-				<a
-					target="_blank"
-					href="https://www.theledger.com/article/LK/20140313/News/608076751/LL/"
-					>Robotics team</a
-				>, which started my wanderings in tech.
+<body>
+	<div class="window" id="about">
+		<div class="title-bar" id="about-bar">
+			<div class="title-bar-text">About</div>
+			<div class="title-bar-controls">
+				<button aria-label="Minimize"></button>
+				<button aria-label="Maximize"></button>
+				<button aria-label="Close"></button>
 			</div>
 		</div>
-		<div class="window" id="connect">
-			<div class="title-bar" id="connect-bar">
-				<div class="title-bar-text">Past</div>
-				<div class="title-bar-controls">
-					<button aria-label="Minimize"></button>
-					<button aria-label="Maximize"></button>
-					<button aria-label="Close"></button>
-				</div>
-			</div>
-			<div class="window-body">
-				Wanna get in touch? Follow/dm me on
-				<a
-					href="https://twitter.com/intent/follow?ref_src=twsrc%5Etfw&screen_name=Jay_NotTheBird&tw_p=followbutton"
-					>twitter</a
-				>, shoot me an email at j [at] jaykhatri.com or yell my name really
-				loudly (it works, I promise).
+		<div class="window-body">
+			Hi, I'm Jay. I'm an engineer and product designer.
+			<br />
+			<br />
+			I'm working on <a target="_blank" href="https://highlight.run">Highlight</a>.
+			<br />
+			<br />
+
+			Here's a&nbsp;<a href="./blog">blog</a>.
+		</div>
+	</div>
+	<div class="window" id="interests">
+		<div class="title-bar" id="interests-bar">
+			<div class="title-bar-text">Interests</div>
+			<div class="title-bar-controls">
+				<button aria-label="Minimize"></button>
+				<button aria-label="Maximize"></button>
+				<button aria-label="Close"></button>
 			</div>
 		</div>
-	</body>
+		<div class="window-body">
+			In school, I had interests in hardware/software co-design, software
+			architecture and robotics. After taking a few jobs throughout college, I
+			developed a deep interest in web infrastructure and developing the
+			future of the internet.
+		</div>
+	</div>
+	<div class="window" id="past">
+		<div class="title-bar" id="past-bar">
+			<div class="title-bar-text">Past</div>
+			<div class="title-bar-controls">
+				<button aria-label="Minimize"></button>
+				<button aria-label="Maximize"></button>
+				<button aria-label="Close"></button>
+			</div>
+		</div>
+		<div class="window-body">
+			Most recently, I worked on
+			<a href="https://getreploy.com">Reploy</a> (<a href="https://www.producthunt.com/posts/reploy">product
+				hunt</a>, <a href="https://news.ycombinator.com/item?id=23917956">hn</a>),
+			where I built/designed the product and drove sales from 0 -> $3k MRR in
+			3 weeks. At its core, Reploy used
+			<a href="https://kubernetes.io/">kubernetes</a> to schedule ephemeral
+			environments.
+
+			<br />
+			<br />
+			Before that, I spent time working on product at
+			<a target="_blank" href="https://joinhandshake.com">Handshake</a>,
+			anti-abuse infrastructure at
+			<a target="_blank" href="https://cloud.google.com">Google</a>, and most
+			recently on machine learning infra at
+			<a target="_blank" href="deepmind.com">Deepmind</a>. In high school, I
+			was a captain of the 2015 FTC World Championship
+			<a target="_blank" href="https://www.theledger.com/article/LK/20140313/News/608076751/LL/">Robotics
+				team</a>, which started my wanderings in tech.
+		</div>
+	</div>
+	<div class="window" id="connect">
+		<div class="title-bar" id="connect-bar">
+			<div class="title-bar-text">Past</div>
+			<div class="title-bar-controls">
+				<button aria-label="Minimize"></button>
+				<button aria-label="Maximize"></button>
+				<button aria-label="Close"></button>
+			</div>
+		</div>
+		<div class="window-body">
+			Wanna get in touch? Follow/dm me on
+			<a
+				href="https://twitter.com/intent/follow?ref_src=twsrc%5Etfw&screen_name=Jay_NotTheBird&tw_p=followbutton">twitter</a>,
+			shoot me an email at j [at] jaykhatri.com or yell my name really
+			loudly (it works, I promise).
+		</div>
+	</div>
+</body>
+
 </html>
