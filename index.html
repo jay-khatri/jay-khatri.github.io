@@ -1,102 +1,61 @@
 <html>
-<header>
-	<title>Jay K.</title>
-</header>
-<link rel="stylesheet" type="text/css" href="index.css" />
-<link rel="stylesheet" href="https://unpkg.com/xp.css" />
-<script>
-	document.addEventListener("DOMContentLoaded", function () {
-		var script = document.createElement("script");
-		script.src = "./index.js";
-		document.getElementsByTagName("body")[0].appendChild(script);
-	});
-</script>
+  <head>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Corben:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
-	<div class="window" id="about">
-		<div class="title-bar" id="about-bar">
-			<div class="title-bar-text">About</div>
-			<div class="title-bar-controls">
-				<button aria-label="Minimize"></button>
-				<button aria-label="Maximize"></button>
-				<button aria-label="Close"></button>
-			</div>
-		</div>
-		<div class="window-body">
-			Hi, I'm Jay. I'm an engineer and product designer.
-			<br />
-			<br />
-			I'm working on <a target="_blank" href="https://highlight.run">Highlight</a>.
-			<br />
-			<br />
+  <header>
+    <title>Jay K.</title>
+  </header>
 
-			Here's a&nbsp;<a href="./blog">blog</a>.
-		</div>
-	</div>
-	<div class="window" id="interests">
-		<div class="title-bar" id="interests-bar">
-			<div class="title-bar-text">Interests</div>
-			<div class="title-bar-controls">
-				<button aria-label="Minimize"></button>
-				<button aria-label="Maximize"></button>
-				<button aria-label="Close"></button>
-			</div>
-		</div>
-		<div class="window-body">
-			In school, I had interests in hardware/software co-design, software
-			architecture and robotics. After taking a few jobs throughout college, I
-			developed a deep interest in web infrastructure and developing the
-			future of the internet.
-		</div>
-	</div>
-	<div class="window" id="past">
-		<div class="title-bar" id="past-bar">
-			<div class="title-bar-text">Past</div>
-			<div class="title-bar-controls">
-				<button aria-label="Minimize"></button>
-				<button aria-label="Maximize"></button>
-				<button aria-label="Close"></button>
-			</div>
-		</div>
-		<div class="window-body">
-			Most recently, I worked on
-			<a href="https://getreploy.com">Reploy</a> (<a href="https://www.producthunt.com/posts/reploy">product
-				hunt</a>, <a href="https://news.ycombinator.com/item?id=23917956">hn</a>),
-			where I built/designed the product and drove sales from 0 -> $3k MRR in
-			3 weeks. At its core, Reploy used
-			<a href="https://kubernetes.io/">kubernetes</a> to schedule ephemeral
-			environments.
+  <body>
+    <div class="content">
+      <h1>I'm Jay. I'm working on
+        <a target="_blank" href="https://highlight.io">Highlight</a>.
 
-			<br />
-			<br />
-			Before that, I spent time working on product at
-			<a target="_blank" href="https://joinhandshake.com">Handshake</a>,
-			anti-abuse infrastructure at
-			<a target="_blank" href="https://cloud.google.com">Google</a>, and most
-			recently on machine learning infra at
-			<a target="_blank" href="deepmind.com">Deepmind</a>. In high school, I
-			was a captain of the 2015 FTC World Championship
-			<a target="_blank" href="https://www.theledger.com/article/LK/20140313/News/608076751/LL/">Robotics
-				team</a>, which started my wanderings in tech.
-		</div>
-	</div>
-	<div class="window" id="connect">
-		<div class="title-bar" id="connect-bar">
-			<div class="title-bar-text">Past</div>
-			<div class="title-bar-controls">
-				<button aria-label="Minimize"></button>
-				<button aria-label="Maximize"></button>
-				<button aria-label="Close"></button>
-			</div>
-		</div>
-		<div class="window-body">
-			Wanna get in touch? Follow/dm me on
-			<a
-				href="https://twitter.com/intent/follow?ref_src=twsrc%5Etfw&screen_name=Jay_NotTheBird&tw_p=followbutton">twitter</a>,
-			shoot me an email at j [at] jaykhatri.com or yell my name really
-			loudly (it works, I promise).
-		</div>
-	</div>
-</body>
-
+	  </h1>
+      <h2>Interests</h2>
+      <p>
+        In school, I had interests in hardware/software co-design, software
+        architecture and robotics. After taking a few jobs throughout college, I
+        developed a deep interest in web infrastructure and developing the
+        future of the internet.
+      </p>
+      <h2>Past</h2>
+      <p>
+        Most recently, I went through <a href="ycombinator.com">YCombinator (S20)</a> with a company called 
+        <a href="https://www.producthunt.com/posts/reploy">Reploy</a>, 
+        where I built/designed the product and drove sales. At its core, Reploy
+        used <a href="https://kubernetes.io/">kubernetes</a> to schedule
+        ephemeral environments.
+        <br />
+        <br />
+        Before that, I spent time working on product at
+        <a target="_blank" href="https://joinhandshake.com">Handshake</a>,
+        anti-abuse infrastructure at
+        <a target="_blank" href="https://cloud.google.com">Google</a>, and most
+        recently on machine learning infra at
+        <a target="_blank" href="deepmind.com">Deepmind</a>. In high school, I
+        was a captain of the 2015 FTC World Championship
+        <a
+          target="_blank"
+          href="https://www.theledger.com/article/LK/20140313/News/608076751/LL/"
+          >Robotics team</a
+        >, which started my wanderings in tech.
+      </p>
+      <h2>Chat?</h2>
+      <p>
+        Wanna get in touch? Follow/dm me on
+        <a
+          href="https://twitter.com/intent/follow?ref_src=twsrc%5Etfw&screen_name=Jay_NotTheBird&tw_p=followbutton"
+          >twitter</a
+        >or shoot me an email at jay [at] highlight.io
+      </p>
+    </div>
+  </body>
 </html>
