@@ -7,6 +7,15 @@
       href="https://fonts.googleapis.com/css2?family=Corben:wght@400;700&display=swap"
       rel="stylesheet"
     />
+	<link rel="stylesheet" href="blurry-load.min.css" />
+	<script src="blurry-load.min.js"></script>
+  <script>
+	document.addEventListener("DOMContentLoaded", function(){
+		const blurryImageLoad = new BlurryImageLoad();
+		blurryImageLoad.load();
+	});
+  </script>
+
   </head>
 
   <header>
@@ -15,7 +24,11 @@
 
   <body>
     <div class="content">
-	  <img class="profile-pic" src="static/profile.png">
+	  <img 
+		class="profile-pic blurry-load" 
+		src="static/small-profile.png"
+		data-large="static/profile.png"
+	  >
       <h1>I'm Jay. I'm working on
         <a target="_blank" href="https://highlight.io">Highlight</a>.
 
