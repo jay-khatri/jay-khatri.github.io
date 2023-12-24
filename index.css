@@ -23,6 +23,12 @@ h2 {
   font-size: 1.8em;
 }
 
+h3 {
+  font-weight: 500;
+  font-size: 1.4em;
+  text-decoration: underline;
+}
+
 p {
   font-size: 1.1em;
   font-weight: 300;

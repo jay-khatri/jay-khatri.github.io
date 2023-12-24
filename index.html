@@ -7,15 +7,85 @@
       href="https://fonts.googleapis.com/css2?family=Corben:wght@400;700&display=swap"
       rel="stylesheet"
     />
-	<link rel="stylesheet" href="blurry-load.min.css" />
-	<script src="blurry-load.min.js"></script>
-  <script>
-	document.addEventListener("DOMContentLoaded", function(){
-		const blurryImageLoad = new BlurryImageLoad();
-		blurryImageLoad.load();
-	});
-  </script>
-
+    <link rel="stylesheet" href="blurry-load.min.css" />
+    <script src="blurry-load.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const blurryImageLoad = new BlurryImageLoad();
+        blurryImageLoad.load();
+      });
+    </script>
+    <script>
+      window["_fs_host"] = "fullstory.com";
+      window["_fs_script"] = "edge.fullstory.com/s/fs.js";
+      window["_fs_org"] = "XZQ0S";
+      window["_fs_namespace"] = "FS";
+      (function (m, n, e, t, l, o, g, y) {
+        if (e in m) {
+          if (m.console && m.console.log) {
+            m.console.log(
+              'FullStory namespace conflict. Please set window["_fs_namespace"].'
+            );
+          }
+          return;
+        }
+        g = m[e] = function (a, b, s) {
+          g.q ? g.q.push([a, b, s]) : g._api(a, b, s);
+        };
+        g.q = [];
+        o = n.createElement(t);
+        o.async = 1;
+        o.crossOrigin = "anonymous";
+        o.src = "https://" + _fs_script;
+        y = n.getElementsByTagName(t)[0];
+        y.parentNode.insertBefore(o, y);
+        g.identify = function (i, v, s) {
+          g(l, { uid: i }, s);
+          if (v) g(l, v, s);
+        };
+        g.setUserVars = function (v, s) {
+          g(l, v, s);
+        };
+        g.event = function (i, v, s) {
+          g("event", { n: i, p: v }, s);
+        };
+        g.anonymize = function () {
+          g.identify(!!0);
+        };
+        g.shutdown = function () {
+          g("rec", !1);
+        };
+        g.restart = function () {
+          g("rec", !0);
+        };
+        g.log = function (a, b) {
+          g("log", [a, b]);
+        };
+        g.consent = function (a) {
+          g("consent", !arguments.length || a);
+        };
+        g.identifyAccount = function (i, v) {
+          o = "account";
+          v = v || {};
+          v.acctId = i;
+          g(o, v);
+        };
+        g.clearUserCookie = function () {};
+        g.setVars = function (n, p) {
+          g("setVars", [n, p]);
+        };
+        g._w = {};
+        y = "XMLHttpRequest";
+        g._w[y] = m[y];
+        y = "fetch";
+        g._w[y] = m[y];
+        if (m[y])
+          m[y] = function () {
+            return g._w[y].apply(this, arguments);
+          };
+        g._v = "1.3.0";
+      })(window, document, window["_fs_namespace"], "script", "user");
+    </script>
   </head>
 
   <header>
@@ -24,26 +94,33 @@
 
   <body>
     <div class="content">
-	  <img 
-		class="profile-pic blurry-load" 
-		src="static/small-profile.png"
-		data-large="static/profile.png"
-	  >
-      <h1>I'm Jay. I'm working on
+      <img
+        class="profile-pic blurry-load"
+        src="static/small-profile.png"
+        data-large="static/profile.png"
+      />
+      <h1>
+        I'm Jay. I'm working on
         <a target="_blank" href="https://highlight.io">Highlight</a>.
-
-	  </h1>
-      <h2>Interests</h2>
+      </h1>
+      <p>
+        Welcome to this site. If you want to get in touch, dm me on
+        <a href="https://x.com/theJayKhatri">x</a>, <a href="https://linkedin.com/in/jay-khatri">linkedin </a>, or <a href="mailto:jay@highlight.io">email</a>. More details about what I'm up to below 👇.
+      </p>
+      <h3>Current</h3>
+      <p>I'm currently the ceo @ <a href="https://highlight.io">Highlight.io</a>; we're building an <a href="https://github.com/highlight/highlight">open source</a> observability distribution. If you're interested in getting in touch about hiring, partnerships, or anything else, please reach out.</p>
+      <h3>Investing</h3>
+      <p>Given that we work with lots of startups at Highlight, I occasionally invest in founders who I develop good relationships with. Another requirement of mine is that these business are in the dev-tools/infra spaces. Some of the public investments I've made include <a href="https://openmeter.io">OpenMeter</a>, <a href="https://magicpatterns.com">MagicPatterns</a>, and <a href="https://trigger.dev">Trigger.dev</a>.</p>
+      <h2>Past</h3>
       <p>
         In school, I had interests in hardware/software co-design, software
         architecture and robotics. After taking a few jobs throughout college, I
-        developed a deep interest in web infrastructure and developing the
-        future of the internet.
-      </p>
-      <h2>Past</h2>
-      <p>
-        Most recently, I went through <a href="https://ycombinator.com">YCombinator (S20)</a> with a company called 
-        <a href="https://www.producthunt.com/posts/reploy">Reploy</a>, 
+        developed a deep interest in web infrastructure.
+      <br/>
+      <br/>
+        Before working on Highlight, I went through
+        <a href="https://ycombinator.com">YCombinator</a> with a company
+        called <a href="https://www.producthunt.com/posts/reploy">Reploy</a>,
         where I built/designed the product and drove sales. At its core, Reploy
         used <a href="https://kubernetes.io/">kubernetes</a> to schedule
         ephemeral environments.
@@ -54,22 +131,19 @@
         anti-abuse infrastructure at
         <a target="_blank" href="https://cloud.google.com">Google</a>, and most
         recently on machine learning infra at
-        <a target="_blank" href="https://deepmind.com">Deepmind</a>. In high school, I
-        was a captain of the 2015 FTC World Championship
+        <a target="_blank" href="https://deepmind.com">Deepmind</a>. In high
+        school, I was a captain of the 2015 FTC World Championship
         <a
           target="_blank"
           href="https://www.theledger.com/story/news/2014/03/13/polk-tampa-teens-robotics-team-headed-to-world-championship/26940999007/"
           >Robotics team</a
         >, which started my wanderings in tech.
       </p>
-      <h2>Chat?</h2>
-      <p>
-        Wanna get in touch? Follow/dm me on
-        <a
-          href="https://twitter.com/theJayKhatri"
-          >twitter</a
-        > or shoot me an email at jay [at] highlight.io
-      </p>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
     </div>
   </body>
 </html>
