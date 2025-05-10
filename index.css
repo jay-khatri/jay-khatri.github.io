@@ -1,5 +1,5 @@
 body {
-  font-family: 'Corben', cursive;
+  font-family: 'Montserrat', sans-serif;
   display: flex;
   justify-content: center;
   background-color:rgb(255, 248, 240);
@@ -26,15 +26,45 @@ h2 {
 h3 {
   font-weight: 500;
   font-size: 1.4em;
-  text-decoration: underline;
 }
 
 p {
   font-size: 1.1em;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .profile-pic {
   width: 20em;
   height: 20em;
+  border: 8px solid rgb(155, 148, 140);
+  border-radius: 32px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(155, 148, 140);
+}
+
+a sup {
+  padding: 0 2px;
+  color: rgb(155, 148, 140);
+}
+
+.links {
+  margin-top: 2em;
+  padding-top: 2em;
+  border-top: 1px solid rgb(155, 148, 140);
+}
+
+.links p {
+  line-height: 1.8;
+}
+
+.links a {
+  text-decoration: none;
+  color: rgb(155, 148, 140);
+}
+
+.links a:hover {
+  text-decoration: underline;
 }
