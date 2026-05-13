@@ -77,8 +77,14 @@ a sup {
   .content {
     margin: 1.5rem;
   }
-  
+
   body {
     margin-bottom: 100px;
+  }
+
+  .profile-pic {
+    width: min(16rem, 70%);
+    border-width: 6px;
+    border-radius: 24px;
   }
 }
