@@ -73,7 +73,7 @@ a sup {
   text-decoration: underline;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   body {
     font-size: 17px;
     margin-bottom: 100px;
