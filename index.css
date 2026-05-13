@@ -73,28 +73,17 @@ a sup {
   text-decoration: underline;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
+  .content {
+    margin: 1.5rem;
+  }
+
   body {
-    font-size: 17px;
     margin-bottom: 100px;
   }
 
-  .content {
-    margin: 1.5rem;
-    width: auto;
-  }
-
-  h3 {
-    font-size: 1.5rem;
-  }
-
-  p {
-    font-size: 1.15rem;
-    line-height: 1.65;
-  }
-
   .profile-pic {
-    width: 100%;
+    width: min(16rem, 70%);
     border-width: 6px;
     border-radius: 24px;
   }
