@@ -39,7 +39,7 @@ p {
 .profile-pic {
   width: min(20rem, 90%);
   height: auto;
-  border: 8px solid rgb(155, 148, 140);
+  border: 8px solid #000;
   border-radius: 32px;
 }
 
