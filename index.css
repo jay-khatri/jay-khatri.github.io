@@ -74,11 +74,28 @@ a sup {
 }
 
 @media screen and (max-width: 480px) {
+  body {
+    font-size: 17px;
+    margin-bottom: 100px;
+  }
+
   .content {
     margin: 1.5rem;
+    width: auto;
   }
-  
-  body {
-    margin-bottom: 100px;
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1.15rem;
+    line-height: 1.65;
+  }
+
+  .profile-pic {
+    width: 100%;
+    border-width: 6px;
+    border-radius: 24px;
   }
 }
